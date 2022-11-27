@@ -16,3 +16,59 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.flatpickr-input {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #212121;
+}
+
+button[data-start] {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 30px;
+  padding: 10px;
+  color:#212121;
+  background-color:chartreuse;
+  border: 2px solid #212121;
+}
+
+button:disabled {
+background-color: lightgrey;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color:blanchedalmond;
+  padding: 10px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #212121;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.field:not(:last-child) {
+  margin-right: 10px;
+}
+
+.value {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.label {
+  text-transform: uppercase;
+}
